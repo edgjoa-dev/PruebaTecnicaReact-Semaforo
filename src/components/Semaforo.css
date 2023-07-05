@@ -1,0 +1,27 @@
+/* Creacion de estilos usando css y metodo BEM */
+
+.semaforo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    width: 100vw;
+    }
+
+    .semaforo-light {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
